@@ -1,3 +1,5 @@
+export const backtop: string;
+export const db: string;
 export const ejnav: string;
 export const fadeIn: string;
 export const animated: string;
@@ -11,7 +13,6 @@ export const trans: string;
 export const case_list: string;
 export const pic: string;
 export const rel: string;
-export const db: string;
 export const fadeInLeft: string;
 export const cont: string;
 export const ovh: string;
