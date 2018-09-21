@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/service-example.css">
+</head>
+<body>
+    <div class="dmy_background">
+    </div>
+<div class="dmy_tab">
+    <ul class="container">
+        <li><a href="" class="on">金融</a></li>
+        <li><a href="">互联网</a></li>
+        <li><a href="">能源</a></li>
+        <li><a href="">其他</a></li>
+    </ul>
+</div>
+<div class="dmy_list">
+    <div class="container">
+        <ul class="dmy_jinrong">
+
+        </ul>
+        <br>
+        <div class="dmy_fen">
+            <strong>1</strong>
+            <a href="javascript:;">2</a>
+            <a href="javascript:;">下一页</a>
+        </div>
+    </div>
+</div>
+
+</body>
+<script type="text/template" id="template">
+    <li>
+        <a href="" class="pic">
+            <span><img src="img/service-example/@img@" alt=""></span>
+        </a>
+        <div class="dmy_pic_right">
+            <a href="" class="dmy_more">
+                <img src="img/service-example/jiantou3.png" alt="">
+            </a>
+            <div class="dmy_cont">
+                <a href="">@h1@</a>
+                <div class="dmy_note">
+                    @title@
+                </div>
+                <div class="dmy_date">
+                    @time@
+                </div>
+            </div>
+        </div>
+    </li>
+</script>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/service-example.js"></script>
+<script>
+    new fenFn();
+</script>
+</html>
