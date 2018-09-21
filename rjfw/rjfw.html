@@ -43,36 +43,82 @@
         <div class="container">
             <ul>
                 <li class="fix trans" v-for="li in dataList">
-                    <a href="javascript:;" class="pic db rel wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+                    <a href="javascript:;" class="pic db rel wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; display: block;">
                         <img :src=" li.pic " alt="">
                         <span class="picspan" style="background:url(img/rjfw/1.jpg) no-repeat center center;"></span>
                     </a>
-                </li>
-                <li class="fix trans" v-for="li in dataList">
-                    <a href="javascript:;" class="pic db rel wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                        <img :src=" li.pic " alt="">
-                        <span class="picspan" style="background:url(img/rjfw/1.jpg) no-repeat center center;"></span>
-                    </a>
-                </li>
-                <li class="fix trans" v-for="li in dataList">
-                    <a href="javascript:;" class="pic db rel wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                        <img :src=" li.pic " alt="">
-                        <span class="picspan" style="background:url(img/rjfw/1.jpg) no-repeat center center;"></span>
-                    </a>
-                </li>
-                <li class="fix trans" v-for="li in dataList">
-                    <a href="javascript:;" class="pic db rel wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                        <img :src=" li.pic " alt="">
-                        <span class="picspan" style="background:url(img/rjfw/1.jpg) no-repeat center center;"></span>
-                    </a>
-                </li>
-                <li class="fix trans" v-for="li in dataList">
-                    <a href="javascript:;" class="pic db rel wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
-                        <img :src=" li.pic " alt="">
-                        <span class="picspan" style="background:url(img/rjfw/1.jpg) no-repeat center center;"></span>
-                    </a>
+                    <div class="cont ovh fix wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                        <a href="javascript:;" class="more fr">
+                            <img src=" li.icon " class="db" alt="">
+                        </a>
+                        <div class="cont1">
+                            <a href="javascript:;" class="tit trans db">
+                                {{ li.tit }}
+                            </a>
+                            <div class="note">
+                                {{ li.con }}
+                            </div>
+                            <div class="date">
+                                {{ li.date }}
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
+            <div class="pages tc wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;"></div>
+        </div>
+    </div>
+    <div class="footer wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container fix">
+            <div class="fl footer_left">
+                <div class="tit">联系方式</div>
+                <div class="note">
+                </div>
+                <div class="note1">
+                    <img src="/static/images/dbxtb1.png" class="vmid mr5" alt="">电话：+86 10-62980018<br>
+                    <img src="/static/images/dbxtb2.png" class="vmid mr5" alt="">邮箱：market@hunktimes.com<br>
+                    <img src="/static/images/dbxtb3.png" class="vmid mr5" alt="">地址：北京市海淀区上地东路9号得实大厦1层 </div>
+            </div>
+            <div class="footer_right fix">
+                <ul class="fl">
+                    <li class="li_tit"><a href="/show?catid=1">关于我们</a></li>
+                    <li class="li_nr"><a href="/show?catid=7">公司简介</a></li>
+                    <li class="li_nr"><a href="/show?catid=8">我们的征程</a></li>
+                    <li class="li_nr"><a href="/show?catid=10">企业文化</a></li>
+                    <li class="li_nr"><a href="/show?catid=11">荣誉及证书</a></li>
+                    <li class="li_nr"><a href="/show?catid=12">合作伙伴</a></li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="/show?catid=2">软件服务</a></li>
+                    <li class="li_nr"><a href="/show?catid=14">产品</a></li>
+                    <li class="li_nr"><a href="/show?catid=13">解决方案</a></li>
+                    <li class="li_nr"><a href="/show?catid=16">IT外包服务</a></li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="/show?catid=3">服务案例</a></li>
+                    <li class="li_nr"><a href="/show?catid=18">金融</a></li>
+                    <li class="li_nr"><a href="/show?catid=20">互联网</a></li>
+                    <li class="li_nr"><a href="/show?catid=21">能源</a></li>
+                    <li class="li_nr"><a href="/show?catid=19">其他</a></li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="/show?catid=6">联系我们</a></li>
+                    <li class="li_nr"><a href="/show?catid=27">全国分布图</a></li>
+                    <li class="li_nr"><a href="/show?catid=28">联系我们</a></li>
+                    <li class="li_nr"><a href="/show?catid=29">关注我们</a></li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="/case1?catid=2">人才招聘</a></li>
+                    <li class="li_nr"><a href="/case1?catid=2">招聘信息</a></li>
+                    <li class="li_nr"><a href="/show?catid=26">员工关怀</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyRight wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container fix tc">
+            <div class="fl">HUNK TIMES © 2018. All Rights Reserved.</div>
+            <div class="fr">京ICP备14035856号</div>
         </div>
     </div>
     <script src="https://wuxiongda.top/vue/js/vue.js"></script>

@@ -137,3 +137,243 @@ img {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+.case_list {
+  padding: 45px 0 50px;
+}
+.case_list ul li {
+  background: #fafafa;
+  margin-top: 30px;
+}
+.case_list ul li .pic {
+  width: 295px;
+  float: left;
+}
+.rel {
+  position: relative;
+}
+.db {
+  display: block;
+}
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.case_list ul li .cont {
+  margin-left: 330px;
+}
+.ovh {
+  overflow: hidden;
+}
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+}
+.case_list ul li .cont a.more {
+  float: right;
+  margin-right: 40px;
+  margin-top: 80px;
+}
+.fr {
+  float: right;
+}
+.db {
+  display: block;
+}
+img {
+  vertical-align: middle;
+}
+.case_list ul li .cont .cont1 {
+  margin-right: 150px;
+  padding-top: 30px;
+}
+.case_list ul li .cont .cont1 .tit {
+  color: #000;
+  font-size: 22px;
+}
+.case_list ul li .cont .cont1 .note {
+  color: #616161;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.case_list ul li .cont .cont1 .date {
+  color: #999;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.tc {
+  text-align: center;
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.case_list ul li:hover {
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.1);
+}
+.case_list ul li {
+  background: #fafafa;
+  margin-top: 30px;
+}
+.trans {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.case_list ul li:hover .cont .cont1 .tit {
+  color: #f39700;
+}
+@media (max-width: 1600px) {
+  background: #1e2124;
+  padding: 85px 0 70px;
+}
+.footer {
+  background: #1e2124;
+  padding: 85px 0 70px;
+}
+@media (min-width: 1200px) {
+  width: 1170px;
+}
+@media (min-width: 992px) {
+  width: 970px;
+}
+@media (min-width: 768px) {
+  width: 750px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 1600px) {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.footer .container .footer_left {
+  width: 1140px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.fl {
+  float: left;
+}
+.footer .container .footer_left .note {
+  font-size: 16px;
+  line-height: 30px;
+  border-bottom: solid 1px #787a7c;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.footer .container .footer_left .note1 {
+  font-size: 14px;
+  line-height: 30px;
+}
+.vmid {
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+@media (max-width: 1600px) {
+  margin-left: 0;
+}
+.footer .container .footer_right {
+  margin-left: 0;
+}
+.footer .container .footer_right ul {
+  width: 20%;
+}
+.fl {
+  float: left;
+}
+.footer .container .footer_right ul li.li_tit {
+  padding-bottom: 15px;
+}
+.footer .container .footer_right ul li.li_tit a {
+  color: #fff;
+  font-size: 16px;
+}
+.footer .container .footer_right ul li.li_nr a:hover {
+  opacity: 1;
+}
+a:hover,
+a:focus {
+  text-decoration: none!important;
+}
+.footer .container .footer_right ul li.li_nr {
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+}
+.footer .container .footer_right ul li.li_nr a {
+  color: #fff;
+  opacity: .6;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+.copyRight {
+  padding: 40px 0;
+  line-height: 20px;
+  background: #1e2124;
+  border-top: solid 1px #35383a;
+  color: #fff;
+  font-size: 14px;
+}
+@media (min-width: 992px) {
+  width: 970px;
+}
+@media (min-width: 768px) {
+  width: 750px;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
