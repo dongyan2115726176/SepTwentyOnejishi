@@ -39,7 +39,7 @@
             </ul>
         </div>
     </div>
-    <div class="case_list">
+    <div class="case_list" id="app">
         <div class="container">
             <ul>
                 <li class="fix trans" v-for="li in dataList">
@@ -75,10 +75,47 @@
             </ul>
         </div>
     </div>
+    <script src="https://wuxiongda.top/vue/js/vue.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/swiper.js"></script>
     <script>
+        let v = new Vue({
+            el: "#app",
+            data: {
+                dataList: [{
+                    "pic": "img/rjfw/1.jpg",
+                    "tit": "企业级数据文件交换平台（EDP）",
+                    "con": "企业级数据文件交换平台（EDP）企业级数据文件集中交换平台，可对文件拆分拼装、加解密、解压缩、完整性校验，确保端到端的文件传输服务达到企业级要求。",
+                    "date": "2018-06-05",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/6.jpg",
+                    "tit": "接口自动化测试平台",
+                    "con": "我们坚信，测试人员只需要设计用例就可以了，而编写用例时间太久，浪费了大量时间，100条测试用例只需1秒",
+                    "date": "2018-05-31",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/9.png",
+                    "tit": "积分商城平台",
+                    "con": "积分商城平台将为用户提供一站式线上线下消费平台，以积分形式提供礼品兑换，并产生新的积分，同时为合作伙伴（集团内及第三方）提供市场推广，协助商户获得流量，同时引导客户到线下商户消费，形成线上...",
+                    "date": "2018-05-30",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/3.png",
+                    "tit": "企业级BPM流程管理平台",
+                    "con": "BPM应用于行政流程应用、人资流程应用、项目管理、采购、物流、销售、财务流程应用，合规审计，任务协同等流程管理类业务要求。",
+                    "date": "2018-05-15",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/8.jpg",
+                    "tit": "指挥调度系统",
+                    "con": "企业级指挥调度系统（CDS）适应于软件项目投产上线指挥调度，确保系统上线按演练既定步骤完成投产目标，同时适应各类演练、重大活动、事件指挥调度。",
+                    "date": "2018-06-22",
+                    "icon": "img/rjfw/15.png"
+                }]
+            }
+        })
     </script>
 </body>
 
