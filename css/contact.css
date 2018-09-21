@@ -66,9 +66,75 @@ body{
 .main .content{
 	margin: 0 auto;
 	width: 76%;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+	position: relative;
 }
 .main .content .map1{
 	width: 928px;
+	position: relative;
+}
+.main .content .map1 .dian{
+	position: absolute;
+	width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    z-index: 3;
+}
+.main .content .map1 .dian .d{
+	width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+.main .content .map1 .dian .zhi{
+	position: absolute;
+	width: 100px;
+    left: 20px;
+    top: 50%;
+    margin-top: -10px;
+    line-height: 20px;
+}
+.main .content .map1 .dian .yuan{
+	width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -78px;
+    margin-left: -78px;
+    animation: ripple 4.5s ease-out 450ms infinite;
+    transform: scale(0);
+}
+.main .content .map1 .dian .yuan_30{
+	animation-delay: 0.6s;
+}
+.main .content .map1 .dian .yuan_60{
+	animation-delay: 1.2s;
+}
+.main .content .map1 .dian .yuan_90{
+	animation-delay: 1.8s;
+}
+@keyframes ripple {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.1, .1);
+        -moz-transform: scale(.1, .1);
+        -ms-transform: scale(.1, .1);
+        transform: scale(.1, .1)
+    }
+    5% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1)
+    }
 }
 .main .content .map1 img{
 	display: block;
@@ -81,4 +147,71 @@ body{
     color: #000;
     font-size: 16px;
     line-height: 36px;
+}
+
+.contact_main{
+	padding: 45px 0 40px;
+}
+.contact-main .container{
+	width: 76%;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contact-main .container .row{
+	margin-left: -15px;
+    margin-right: -15px;
+}
+.contact-main .container .row .animated{
+	width: 30%;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+.contact-main .container .row .animated .contact_div{
+	background: #fafafa;
+    padding: 23px 24px 0;
+    margin-bottom: 30px;
+}
+.contact-main .container .row .animated .contact_div .tit{
+	color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-main .container .row .animated .contact_div .tit img{
+	margin-right: 10px;
+	vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+}
+.contact-main .container .row .animated .contact_div .note{
+	padding-left: 20px;
+    padding-right: 20px;
+}
+.contact-main .container .row .animated .contact_div .note .note_div{
+	color: #000;
+    font-size: 16px;
+    line-height: 30px;
+}
+.contact-main .container .row .animated .contact_div .note .note_div .f1{
+	width: 50px;
+    text-align: right;
+    float: left;
+}
+.contact-main .container .row .animated .contact_div .note .note_div .note_div1{
+	margin-left: 60px;
+}
+.contact-main .container .row .animated .contact_div .note .note_div .note_div2{
+	height: 60px;
+	margin-left: 60px;
+}
+.contact-main .container .row .animated .contact_div .zhanshi{
+	width: 100%;
+	height: 160px;
+}
+.contact-main .container .row .animated .contact_div .zhanshi section{
+	width: 100%;
+	height: 100%;
 }
