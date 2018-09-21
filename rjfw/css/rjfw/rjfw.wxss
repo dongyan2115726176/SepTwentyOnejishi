@@ -4,6 +4,12 @@
 }
 #logo {
   width: 100%;
-  height: 120px;
+  height: 100px;
   background: #ffb700;
+}
+#content {
+  width: 100%;
+}
+#content img {
+  widows: 100%;
 }
