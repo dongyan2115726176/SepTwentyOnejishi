@@ -55,6 +55,16 @@ body{
     float: left;
     position: relative;
 }
+.dmy_rest  li{
+    background: #fafafa;
+    margin-top: 30px;
+    height: 188px;
+}
+.dmy_rest  li .pic{
+    width: 295px;
+    float: left;
+    position: relative;
+}
 .dmy_list ul li .pic span{
     display: block;
     width: 100%;
@@ -131,10 +141,10 @@ body{
     height: 188px;
     transition: all 1s;
 }
-.dmy_jinrong li:hover{
+.dmy_jinrongs li:hover{
     box-shadow: 5px 0px 50px #ddd;
 }
-.dmy_jinrong li:hover img{
+.dmy_jinrongs li:hover img{
     transform: scale(1.2);
 }
 .dmy_jinrong li{ opacity:0; animation:move 1s forwards; animation-play-state:paused;}
@@ -142,4 +152,26 @@ body{
 @keyframes move{
     from{ opacity:0; margin-left:500px;}
     to{ opacity:1; margin-left:0;}
+}
+.dmy_tabs ul{
+    display: none;
+}
+.dmy_tabs ul:nth-child(1){
+    display: block;
+}
+.dmy_jinrongs li{ opacity:0; animation:move 1s forwards; animation-play-state:paused;}
+.dmy_jinrongs li.move{ animation-play-state:running;}
+@keyframes move{
+    from{ opacity:0; margin-left:500px;}
+    to{ opacity:1; margin-left:0;}
+}
+.dmy_hha{
+    display: none;
+}
+.dmy_hha:nth-child(1){
+    display: block;
+}
+span{
+    display: block;
+    overflow: hidden;
 }
