@@ -12,9 +12,13 @@ body{
     overflow-x: hidden;
 }
 .dmy_background{
-    background: url("../img/service-example/1d58126701051717ff4688fd5c4efdbf.jpg") no-repeat;
     display: block;
-    height: 400px;
+    height: auto;
+}
+.dmy_background img{
+    display: block;
+    height: auto;
+    width: 100%;
 }
 .dmy_tab{
     height: 88px;
