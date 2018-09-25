@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://www.hunktimes.com/show?catid=8 -->
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="edge">
+<title>汉克时代</title>
+<meta name="keywords" content="关键字">
+<meta name="description" content="网站描述">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://www.hunktimes.com/favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon"> 
+<link rel="shortcut icon" href="http://www.hunktimes.com/favicon.ico">
+<!--样式文件开始-->
+<link rel="stylesheet" href="./9_files/common.css">
+<link rel="stylesheet" href="./9_files/bootstrap.css">
+<link href="./9_files/owl.carousel.css" rel="stylesheet">
+<link href="./9_files/owl.theme.css" rel="stylesheet">
+<link rel="stylesheet" href="./9_files/swiper.min.css">
+<link rel="stylesheet" href="./9_files/style.css">
+<link rel="stylesheet" href="./9_files/style_wt.css">
+
+<script src="./9_files/jquery-1.11.2.min.js"></script>
+<script language="javascript" src="./9_files/bootstrap.min.js"></script>
+<script language="javascript" src="./9_files/swiper.min.js"></script>
+<script language="javascript" src="./9_files/js.js"></script>
+<script src="./9_files/owl.carousel.js"></script>
+<script async="" src="./9_files/picturefill.min.js"></script>
+<!--[if lt IE 9]>
+<script src="/static/js/html5shiv.min.js"></script>
+<script src="/static/js/respond.min.js"></script>
+<![endif]-->
+<!--样式文件结束-->
+
+</head>
+<body class="body1">
+
+
+<div class="backtop" style="display: block;">
+	<img src="./9_files/backtop.png" class="db" alt="">
+</div>
+<div class="header" style="display: block;">
+	<a href="http://www.hunktimes.com/" class="logo abs"><img src="./9_files/64ed78d52a7af0d18b44cf523a6d8702.png" class="db" alt=""></a>
+	<div class="header_top abs">
+		<a href="javascript:void(0)" class="vmid"><img src="./9_files/toptb1.png" class="vmid" alt=""><span class="abs f_fade"><img src="./9_files/539372be95db48a64d443d4ee9024172.jpg" alt=""></span></a>
+		
+				
+		<!--搜索开始-->
+		<div class="vmid search_btn">
+			<img src="./9_files/toptb3.png" class="vmid" alt="">
+			<div class="search abs fix">
+				<form name="formsea1" id="formsea1" action="http://www.hunktimes.com/show/search" method="get">
+					<input type="text" name="kwd" class="search_inp fl">
+					<input type="submit" class="search_btn fr" value="">
+				</form>    
+			</div>
+		</div>
+		<!--搜索结束-->
+		
+	</div>
+	<div class="hsbtm"></div>
+	<span class="glyphicon glyphicon-menu-hamburger menu" aria-hidden="true"></span>
+	<div class="index_nav trans abs" style="right: 0px; opacity: 1;">
+		<span class="glyphicon glyphicon-remove menu_close" aria-hidden="true"></span>
+		<ul class="fix">
+			<li class="fl"><a href="http://www.hunktimes.com/" class="db  trans">网站首页</a></li>
+			<li class="fl"><a href="http://www.hunktimes.com/show?catid=1" class="db  on  trans">关于我们</a>
+									<div class="xl" style="display: none; height: 66px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+											<a href="http://www.hunktimes.com/show?catid=7" class="trans">公司简介</a>
+											<a href="http://www.hunktimes.com/show?catid=8" class="trans">我们的征程</a>
+											<a href="http://www.hunktimes.com/show?catid=10" class="trans">企业文化</a>
+											<a href="http://www.hunktimes.com/show?catid=11" class="trans">荣誉及证书</a>
+											<a href="http://www.hunktimes.com/show?catid=12" class="trans">合作伙伴</a>
+										</div>
+							</li>
+			<li class="fl"><a href="http://www.hunktimes.com/show?catid=2" class="db  trans">软件服务</a>
+									<div class="xl" style="display: block; height: 0.387099px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; overflow: hidden;">
+											<a href="http://www.hunktimes.com/show?catid=14" class="trans">产品</a>
+											<a href="http://www.hunktimes.com/show?catid=13" class="trans">解决方案</a>
+											<a href="http://www.hunktimes.com/show?catid=16" class="trans">IT外包服务</a>
+										</div>
+							</li>
+			<li class="fl"><a href="http://www.hunktimes.com/show?catid=3" class="db  trans">服务案例</a>
+									<div class="xl">
+											<a href="http://www.hunktimes.com/show?catid=18" class="trans">金融</a>
+											<a href="http://www.hunktimes.com/show?catid=20" class="trans">互联网</a>
+											<a href="http://www.hunktimes.com/show?catid=21" class="trans">能源</a>
+											<a href="http://www.hunktimes.com/show?catid=19" class="trans">其他</a>
+										</div>
+							</li>
+			<li class="fl"><a href="http://www.hunktimes.com/show?catid=4" class="db  trans">新闻中心</a>
+				
+								
+			</li>
+			<li class="fl"><a href="http://www.hunktimes.com/case1?catid=2" class="db  trans">人才招聘</a>
+									<div class="xl">
+											<a href="http://www.hunktimes.com/case1?catid=2" class="trans">招聘信息</a>
+																<a href="http://www.hunktimes.com/show?catid=26" class="trans">员工关怀</a>
+										</div>
+							</li>
+			<li class="fl"><a href="http://www.hunktimes.com/show?catid=6" class="db  trans">联系我们</a>
+									<div class="xl">
+											<a href="http://www.hunktimes.com/show?catid=27" class="trans">全国分布图</a>
+											<a href="http://www.hunktimes.com/show?catid=28" class="trans">联系我们</a>
+											<a href="http://www.hunktimes.com/show?catid=29" class="trans">关注我们</a>
+										</div>
+							</li>
+		</ul>
+	</div>
+</div>
+
+	<div class="ejbanner" style="background: url(&quot;/static/upfile/sad/d9183abe2af2c7a86261fe165b509752.jpg&quot;) center center / cover no-repeat; display: block;"><img src="./9_files/1a5cabc50818f0157f9ce3309a764e63.jpg" class="db" alt=""></div>
+
+<div class="ejnav wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+	<div class="container swiper-container swiper-container-horizontal">
+		<ul class="swiper-wrapper">
+							<li class="swiper-slide swiper-slide-active"><a href="http://www.hunktimes.com/show?catid=7" class="trans">公司简介</a></li><li class="swiper-slide swiper-slide-next"><a href="http://www.hunktimes.com/show?catid=8" class="trans on">我们的征程</a></li><li class="swiper-slide"><a href="http://www.hunktimes.com/show?catid=10" class="trans">企业文化</a></li><li class="swiper-slide"><a href="http://www.hunktimes.com/show?catid=11" class="trans">荣誉及证书</a></li><li class="swiper-slide"><a href="http://www.hunktimes.com/show?catid=12" class="trans">合作伙伴</a></li>					</ul>
+	</div>
+	<script>
+	 var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 'auto',
+		paginationClickable: true,
+		spaceBetween: 0
+	});
+	</script>
+</div>
+
+<div class="zc_list">
+	<div class="container">
+		<ul>
+												<li class="fix rel wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<img src="./9_files/yuandian.png" class="abs yuandian" alt="">
+						<a style="cursor:default;" class="pic rel fr">
+							<img src="./9_files/newstp2.png" class="zhanwei" alt="">
+							<span class="picspan" style="background:url(/static/upfile/show/8a3e2d104d449a27d078e0e444612e3c.jpg) no-repeat center center;"></span>
+						</a>
+						<div class="cont">
+							<div class="date">2012年</div>
+							<div class="note">
+								北京汉克时代科技有限公司成立<br>
+杭州分公司成立<br>							</div>
+						</div>
+					</li>
+									<li class="fix rel wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<img src="./9_files/yuandian.png" class="abs yuandian" alt="">
+						<a style="cursor:default;" class="pic rel fr">
+							<img src="./9_files/newstp2.png" class="zhanwei" alt="">
+							<span class="picspan" style="background:url(/static/upfile/show/2beca1c5f4d8d1e4b0f242d8dd65a82a.png) no-repeat center center;"></span>
+						</a>
+						<div class="cont">
+							<div class="date">2013年</div>
+							<div class="note">
+								获得高新技术企业、双软企业<br>
+通过ISO9001认证<br>
+改组为事业部制<br>
+成立金融事业部<br>
+成立研发中心
+							</div>
+						</div>
+					</li>
+									<li class="fix rel wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<img src="./9_files/yuandian.png" class="abs yuandian" alt="">
+						<a style="cursor:default;" class="pic rel fr">
+							<img src="./9_files/newstp2.png" class="zhanwei" alt="">
+							<span class="picspan" style="background:url(/static/upfile/show/3d88b0213161b9c2367df4fd7f03fcca.jpg) no-repeat center center;"></span>
+						</a>
+						<div class="cont">
+							<div class="date">2014年</div>
+							<div class="note">
+								获得人力资源从业许可证<br>
+成立上海分公司、成都办事处、广州办事处
+							</div>
+						</div>
+					</li>
+									<li class="fix rel wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<img src="./9_files/yuandian.png" class="abs yuandian" alt="">
+						<a style="cursor:default;" class="pic rel fr">
+							<img src="./9_files/newstp2.png" class="zhanwei" alt="">
+							<span class="picspan" style="background:url(/static/upfile/show/d13efc74de7872fd866d7b5f6c23ed0a.jpg) no-repeat center center;"></span>
+						</a>
+						<div class="cont">
+							<div class="date">2015年</div>
+							<div class="note">
+								通过CMMI3认证<br>
+成立电商业务部<br>
+2015年度最佳互联网金融解决方案奖
+							</div>
+						</div>
+					</li>
+									<li class="fix rel wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<img src="./9_files/yuandian.png" class="abs yuandian" alt="">
+						<a style="cursor:default;" class="pic rel fr">
+							<img src="./9_files/newstp2.png" class="zhanwei" alt="">
+							<span class="picspan" style="background:url(/static/upfile/show/02be17098aed5162df45eb2335cb7782.jpg) no-repeat center center;"></span>
+						</a>
+						<div class="cont">
+							<div class="date">2016年</div>
+							<div class="note">
+								通过ISO27001认证<br>
+通过ISO20000认证<br>
+成立IT业务部、BPO业务部<br>
+设立河北交付中心<br>							</div>
+						</div>
+					</li>
+									<li class="fix rel wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+						<img src="./9_files/yuandian.png" class="abs yuandian" alt="">
+						<a style="cursor:default;" class="pic rel fr">
+							<img src="./9_files/newstp2.png" class="zhanwei" alt="">
+							<span class="picspan" style="background:url(/static/upfile/show/aac8e75320d7ba893e944b64379d4306.jpg) no-repeat center center;"></span>
+						</a>
+						<div class="cont">
+							<div class="date">2017年</div>
+							<div class="note">
+								通过计算机系统集成三级资质<br>
+成立核心技术支持团队							</div>
+						</div>
+					</li>
+								
+		</ul>
+		<div class="zc_bot wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+			<a style="cursor:default;">future...</a>
+		</div>
+	</div>
+</div>
+ <script>
+
+$(document).ready(function(){ 
+
+$('#page_break .num li:first').addClass('on'); 
+
+$('#page_break .num li').click(function(){ 
+//隐藏所有页内容 
+$("#page_break div[id^='page_']").hide(); 
+
+//显示当前页内容。 
+if ($(this).hasClass('on')) { 
+$('#page_break #page_' + $(this).text()).show(); 
+} else { 
+$('#page_break .num li').removeClass('on'); 
+$(this).addClass('on'); 
+$('#page_break #page_' + $(this).text()).fadeIn('normal'); 
+} 
+}); 
+}); 
+
+</script>
+<script type="text/javascript">
+       function txtFocus(el) {
+           if (el.defaultValue == el.value) { el.value = ''; el.style.color = '#333333'; }
+       }
+
+       function txtBlur(el) {
+           if (el.value == '') { el.value = el.defaultValue; el.style.color = '#777777'; }
+       }
+</script>
+<script>
+		// 网站开发人员信息
+        console.log("开发时间：2018年05月10日");
+		console.log("客户经理：吉利");
+		console.log("设计师：振东");
+		console.log("前端工程师：赵亮");
+		console.log("后端工程师：马冲");
+</script>
+
+<div class="footer wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container fix">
+            <div class="fl footer_left">
+                <div class="tit">联系方式</div>
+                <div class="note">
+                                    </div>
+                <div class="note1">
+                    <img src="./9_files/dbxtb1.png" class="vmid mr5" alt="">电话：+86 10-62980018<br>
+                    <img src="./9_files/dbxtb2.png" class="vmid mr5" alt="">邮箱：market@hunktimes.com<br>
+                    <img src="./9_files/dbxtb3.png" class="vmid mr5" alt="">地址：北京市海淀区上地东路9号得实大厦1层                </div>
+            </div>
+            <div class="footer_right fix">
+                <ul class="fl">
+                    <li class="li_tit"><a href="http://www.hunktimes.com/show?catid=1">关于我们</a></li>
+																		<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=7">公司简介</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=8">我们的征程</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=10">企业文化</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=11">荣誉及证书</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=12">合作伙伴</a></li>
+											                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="http://www.hunktimes.com/show?catid=2">软件服务</a></li>
+                    													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=14">产品</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=13">解决方案</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=16">IT外包服务</a></li>
+											                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="http://www.hunktimes.com/show?catid=3">服务案例</a></li>
+                    													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=18">金融</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=20">互联网</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=21">能源</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=19">其他</a></li>
+											                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="http://www.hunktimes.com/show?catid=6">联系我们</a></li>
+                    													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=27">全国分布图</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=28">联系我们</a></li>
+													<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=29">关注我们</a></li>
+											                </ul>
+                <ul class="fl">
+                    <li class="li_tit"><a href="http://www.hunktimes.com/case1?catid=2">人才招聘</a></li>
+                    													<li class="li_nr"><a href="http://www.hunktimes.com/case1?catid=2">招聘信息</a></li>
+																			<li class="li_nr"><a href="http://www.hunktimes.com/show?catid=26">员工关怀</a></li>
+											                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyRight wow fadeIn" style="visibility: hidden; animation-name: none;">
+        <div class="container fix tc">
+            <div class="fl">HUNK TIMES © 2018. All Rights Reserved.</div>
+            <div class="fr">京ICP备14035856号</div>
+        </div>
+    </div>
+
+</body></html>
