@@ -108,7 +108,7 @@ function all() {
 
 // 员工关怀
 function Sattff() {
-    $.get('json/Sattff.json', function (data) {
+    $.get('Sattff.json', function (data) {
         $('#Catalog_Pic ul').html('')
         // console.log(data.data);
         var Catalog_main_img = data.data;
