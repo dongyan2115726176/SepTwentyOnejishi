@@ -185,6 +185,38 @@
 	text-decoration: none;
 }
 /*five*/
- 
-
+#wy_num5{
+	    width: 80%;
+    margin: 0 auto;
+}
+#wy_num5 ul{
+    width: 73%;
+    margin: 3% auto;
+    list-style: none;
+}
+#wy_num5 ul li{
+float: left;
+    width: 21%;
+    padding-left: 30px;
+    text-align: center;
+}
+#wy_num5 ul li a{
+	    box-shadow: 0 0 20px 4px rgba(0, 0, 0, .05);
+	    display: block;
+    margin-bottom: 30px;
+    height: 180px;
+    line-height: 180px;
+    transition: all 0.5s;
+}
+#wy_num5 ul li a:hover{
+	 box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.15);
+}
+#wy_num5 ul li a img{
+	max-height: 160px;
+    max-width: 90%;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+}
 
