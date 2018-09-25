@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5736be4c-f2d9-4641-aa06-09d2cd980c04" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/newsEnter.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/service-example.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/service-example.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newsEnter.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsEnter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-example.html" beforeDir="false" afterPath="$PROJECT_DIR$/service-example.html" afterDir="false" />
-    </list>
+    <list default="true" id="5736be4c-f2d9-4641-aa06-09d2cd980c04" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +64,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="103" />
     <option name="y" value="412" />
     <option name="width" value="1940" />
@@ -128,15 +122,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537833867107</updated>
-      <workItem from="1537833871587" duration="157000" />
+      <workItem from="1537833871587" duration="356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157000" />
+    <option name="totallyTimeSpent" value="356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
