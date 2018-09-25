@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="img/rjfw/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/rjfw/rjfw.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="backtop" style="display: none;">
+        <img src="img/rjfw/10.png" class="db" alt="">
+    </div>
+    <nav id="logo"></nav>
+    <div id="content">
+        <span>
+            <img src="img/rjfw/4.jpg" alt="">
+        </span>
+    </div>
+    <div class="ejnav wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container swiper-container swiper-container-horizontal">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide swiper-slide-active">
+                    <a href="javascript:;" class="trans on">
+                        产品
+                    </a>
+                </li>
+                <li class="swiper-slide swiper-slide-next">
+                    <a href="javascript:;" class="trans">
+                        解决方案
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a href="javascript:;" class="trans">
+                        IT外包服务
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="case_list" id="app">
+        <div class="container">
+            <ul>
+                <li class="fix trans" v-for="li in dataList">
+                    <a href="javascript:;" class="pic db rel wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft; display: block;">
+                        <img :src=" li.pic " alt="">
+                        <span class="picspan" style="background:url(img/rjfw/1.jpg) no-repeat center center;"></span>
+                    </a>
+                    <div class="cont ovh fix wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+                        <a href="javascript:;" class="more fr">
+                            <img src=" li.icon " class="db" alt="">
+                        </a>
+                        <div class="cont1">
+                            <a href="javascript:;" class="tit trans db">
+                                {{ li.tit }}
+                            </a>
+                            <div class="note">
+                                {{ li.con }}
+                            </div>
+                            <div class="date">
+                                {{ li.date }}
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pages tc wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;"></div>
+        </div>
+    </div>
+    <div class="footer wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container fix">
+            <div class="fl footer_left">
+                <div class="tit">
+                    联系方式
+                </div>
+                <div class="note">
+                </div>
+                <div class="note1">
+                    <img src="img/rjfw/11.png" class="vmid mr5" alt=""> 电话：+86 10-62980018
+                    <br>
+                    <img src="img/rjfw/12.png" class="vmid mr5" alt=""> 邮箱：market@hunktimes.com
+                    <br>
+                    <img src="img/rjfw/13.png" class="vmid mr5" alt=""> 地址：北京市海淀区上地东路9号得实大厦1层
+                </div>
+            </div>
+            <div class="footer_right fix">
+                <ul class="fl">
+                    <li class="li_tit">
+                        <a href="javascript:;">
+                            关于我们
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            公司简介
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            我们的征程
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            企业文化
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            荣誉及证书
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            合作伙伴
+                        </a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit">
+                        <a href="javascript:;">
+                            软件服务
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            产品
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            解决方案
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            IT外包服务
+                        </a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit">
+                        <a href="javascript:;">
+                            服务案例
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            金融
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            互联网
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            能源
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            其他
+                        </a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit">
+                        <a href="javascript:;">
+                            联系我们
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            全国分布图
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            联系我们
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            关注我们
+                        </a>
+                    </li>
+                </ul>
+                <ul class="fl">
+                    <li class="li_tit">
+                        <a href="javascript:;">
+                            人才招聘
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            招聘信息
+                        </a>
+                    </li>
+                    <li class="li_nr">
+                        <a href="javascript:;">
+                            员工关怀
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyRight wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container fix tc">
+            <div class="fl">
+                HUNK TIMES © 2018. All Rights Reserved.
+            </div>
+            <div class="fr">
+                京ICP备14035856号
+            </div>
+        </div>
+    </div>
+    <script src="https://wuxiongda.top/vue/js/vue.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/swiper.js"></script>
+    <script>
+        let v = new Vue({
+            el: "#app",
+            data: {
+                dataList: [{
+                    "pic": "img/rjfw/1.jpg",
+                    "tit": "企业级数据文件交换平台（EDP）",
+                    "con": "企业级数据文件交换平台（EDP）企业级数据文件集中交换平台，可对文件拆分拼装、加解密、解压缩、完整性校验，确保端到端的文件传输服务达到企业级要求。",
+                    "date": "2018-06-05",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/6.jpg",
+                    "tit": "接口自动化测试平台",
+                    "con": "我们坚信，测试人员只需要设计用例就可以了，而编写用例时间太久，浪费了大量时间，100条测试用例只需1秒",
+                    "date": "2018-05-31",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/9.png",
+                    "tit": "积分商城平台",
+                    "con": "积分商城平台将为用户提供一站式线上线下消费平台，以积分形式提供礼品兑换，并产生新的积分，同时为合作伙伴（集团内及第三方）提供市场推广，协助商户获得流量，同时引导客户到线下商户消费，形成线上...",
+                    "date": "2018-05-30",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/3.png",
+                    "tit": "企业级BPM流程管理平台",
+                    "con": "BPM应用于行政流程应用、人资流程应用、项目管理、采购、物流、销售、财务流程应用，合规审计，任务协同等流程管理类业务要求。",
+                    "date": "2018-05-15",
+                    "icon": "img/rjfw/15.png"
+                }, {
+                    "pic": "img/rjfw/8.jpg",
+                    "tit": "指挥调度系统",
+                    "con": "企业级指挥调度系统（CDS）适应于软件项目投产上线指挥调度，确保系统上线按演练既定步骤完成投产目标，同时适应各类演练、重大活动、事件指挥调度。",
+                    "date": "2018-06-22",
+                    "icon": "img/rjfw/15.png"
+                }]
+            }
+        });
+
+
+        $('.backtop').click(function() {
+            $('html,body').animate({
+                'scrollTop': '0px'
+            }, 300);
+        });
+
+        $(window).scroll(function() {
+            var scr = $(window).scrollTop();
+            if (scr > $(window).height()) {
+                $('.backtop').fadeIn();
+            } else {
+                $('.backtop').fadeOut();
+            }
+        })
+    </script>
+</body>
+
+</html>
